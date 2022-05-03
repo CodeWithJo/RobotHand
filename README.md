@@ -37,7 +37,16 @@ ROBOT HAND DESIGN
 I have used the iMoov robot hanf and forarm 3D designs 
 http://inmoov.fr/hand-and-forarm/
 
+ARDUINO UNO
+-Im Using the Arduino Nano BLE Sense with the Extention shield to host the servo motors.
+-Five DM996 servor motors
+
+Upload the TensorFlow lite library generated with edge impulse 
+Sketch -> Include Library -> add .zip library
+Edit it add the servo code and condition on what will happenS when inference is run on the sound read in by the ble embeded microphone
+
 RESULTS 
-to access the online classifier go to https://smartphone.edgeimpulse.com/classifier.html
-to access the full project report , videos and analysis go to https://moose-magenta-dtng.squarespace.com/
-to access the robot hand code go to https://github.com/CodeWithJo/RobotHand.git
+To access the online classifier go to https://smartphone.edgeimpulse.com/classifier.html
+To access the full project report , videos and analysis go to https://moose-magenta-dtng.squarespace.com/
+To access the robot hand code go to https://github.com/CodeWithJo/RobotHand.git
+for an Updated readme check the https://github.com/CodeWithJo/RobotHand.git
